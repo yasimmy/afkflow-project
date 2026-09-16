@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B0B0F" />
+    <meta name="description" content="AFKFlow — Bot Launcher" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.discordapp.com; connect-src 'self' ipc.localhost http://localhost:3000 http://127.0.0.1:3000 ws://localhost:3000 ws://127.0.0.1:3000;" />
+    <title>AFKFlow — Bot Launcher</title>
+    <link rel="icon" type="image/png" href="/icons/app-icon/icon_bot.png" />
+
+    <!-- Preload all bot icons so they are cached before React renders -->
+    <link rel="preload" href="/icons/bot-icons/05_afk.png"      as="image" />
+    <link rel="preload" href="/icons/bot-icons/06_wheel.png"    as="image" />
+    <link rel="preload" href="/icons/bot-icons/07_chef.png"     as="image" />
+    <link rel="preload" href="/icons/bot-icons/08_dumbbell.png" as="image" />
+    <link rel="preload" href="/icons/bot-icons/01_crane.png"    as="image" />
+    <link rel="preload" href="/icons/bot-icons/02_boat.png"     as="image" />
+    <link rel="preload" href="/icons/bot-icons/03_pickaxe.png"  as="image" />
+    <link rel="preload" href="/icons/bot-icons/04_barn.png"     as="image" />
+    <link rel="preload" href="/icons/app-icon/icon_bot.png"     as="image" />
+
+    <!-- Inline critical styles: no selection, no drag on everything except inputs -->
+    <style>
+      *, *::before, *::after {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+      input, textarea, [contenteditable] {
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        user-select: text;
+      }
+      html, body { background: #0B0B0F; margin: 0; padding: 0; overflow: hidden; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

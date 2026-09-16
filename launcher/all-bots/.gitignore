@@ -1,0 +1,14 @@
+*.zip
+*.7z
+*.rar
+other
+dist
+Extra_Hands
+build
+__pycache__
+directory.py
+*.json
+*.json.backup
+*.txt
+*.bat
+test.py

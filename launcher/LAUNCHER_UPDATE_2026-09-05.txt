@@ -1,0 +1,30 @@
+AFKFlow Launcher update - 2026-09-05
+
+1. Added the catch_pda bot to the complete launch path:
+   - Python launcher mapping and auto-start via start_tracking().
+   - Tauri settings persistence mapping.
+   - Backend bot catalog migration and existing SQLite database migration.
+   - Home bot ordering and standalone Python menu.
+   - Catch PDA settings are now read from settings.json.
+
+2. Added launcher settings controls:
+   - Construction: auto_run.
+   - Cooking: editable comma-separated sequence (knife, whisk, fire, water, cell_1 ... cell_20).
+   - Gym: current min/max delay defaults aligned with settings.json.
+   - Catch PDA: confidence and click_cooldown.
+
+3. Updated bot availability:
+   - Wheel is no longer hidden from the Home page.
+   - Seamstress is no longer blocked by the obsolete development-only card state.
+   - catch-pda is included in the Home page and local visibility defaults.
+
+4. Kept configuration formats compatible:
+   - Cooking sequence text is converted to the list format expected by the Python bot.
+   - Existing bot settings continue to be merged and persisted through the current Tauri config flow.
+
+5. Validation:
+   - Frontend TypeScript check: passed.
+   - Rust cargo check: passed.
+   - Python compilation for all bots/components: passed.
+   - settings.json parse check: passed.
+   - Backend TypeScript build remains blocked by the pre-existing error in src/routes/bots.ts:147 (possibly undefined sub).

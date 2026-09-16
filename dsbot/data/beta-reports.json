@@ -1,0 +1,69 @@
+{
+  "9M0-MQC-KC9-AOE": {
+    "id": "9M0-MQC-KC9-AOE",
+    "testerId": "1503043754850779380",
+    "testerTag": "id.luv",
+    "product": "Bot GYM",
+    "version": "v0.0.1",
+    "device": "PC",
+    "summary": "23423423",
+    "type": "Производительность",
+    "steps": "1/2asfafs",
+    "expected": "agfasgas",
+    "actual": "asfasf",
+    "extra": "213"
+  },
+  "0R5-H5F-AYZ-QB3": {
+    "id": "0R5-H5F-AYZ-QB3",
+    "testerId": "1503043754850779380",
+    "testerTag": "id.luv",
+    "product": "Bot GYM",
+    "version": "v0.0.1",
+    "device": "PC",
+    "summary": "23423423",
+    "type": "Производительность",
+    "steps": "1/2asfafs",
+    "expected": "agfasgas",
+    "actual": "asfasf",
+    "extra": "213"
+  },
+  "X3J-DUE-SFZ-HMK": {
+    "id": "X3J-DUE-SFZ-HMK",
+    "testerId": "1503043754850779380",
+    "testerTag": "id.luv",
+    "product": "Bot GYM",
+    "version": "v0.0.1",
+    "device": "PC",
+    "summary": "23423423",
+    "type": "Баг",
+    "steps": "1/2asfafs",
+    "expected": "agfasgas",
+    "actual": "asfasf",
+    "extra": "213",
+    "response": {
+      "authorTag": "id.luv",
+      "text": "spafalsflk;asfklasfkjl"
+    },
+    "respondedAt": "2026-09-04T12:17:17.180Z"
+  },
+  "0JG-FG6-962-B2G": {
+    "id": "0JG-FG6-962-B2G",
+    "testerId": "1503043754850779380",
+    "testerTag": "id.luv",
+    "product": "Bot GYM",
+    "version": "v0.0.1",
+    "device": "PC",
+    "summary": "23423423",
+    "type": "UI/UX",
+    "steps": "1/2asfafs",
+    "expected": "agfasgas",
+    "actual": "asfasf",
+    "extra": "213",
+    "messageId": "1545408020811616338",
+    "response": {
+      "authorTag": "id.luv",
+      "text": "йцуйц"
+    },
+    "respondedAt": "2026-09-04T12:19:48.688Z"
+  }
+}

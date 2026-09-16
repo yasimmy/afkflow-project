@@ -1,0 +1,41 @@
+{
+  "productName": "Everything",
+  "version": "1.0.0",
+  "identifier": "ru.afkflow.launcher",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev:all",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "AFKFlow — Bot Launcher",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 1100,
+        "minHeight": 700,
+        "resizable": true,
+        "maximizable": false,
+        "decorations": false,
+        "devtools": true,
+        "transparent": false,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.discordapp.com; connect-src 'self' ipc.localhost http: ws: https:"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ]
+  }
+}

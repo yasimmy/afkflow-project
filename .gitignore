@@ -1,14 +1,39 @@
-*.zip
-*.7z
-*.rar
-other
-dist
-Extra_Hands
-build
-__pycache__
-directory.py
-*.json
-*.json.backup
-*.txt
-*.bat
-test.py
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+launcher/src-tauri/target/
+
+# Python environments and caches
+**/__pycache__/
+**/*.py[cod]
+launcher/all-bots/Lib/
+launcher/all-bots/Scripts/
+launcher/all-bots/include/
+launcher/all-bots/pyvenv.cfg
+
+# Runtime data
+launcher/backend/data/*.db
+launcher/backend/data/*.db-shm
+launcher/backend/data/*.db-wal
+dsbot/data/*.log
+
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and local reports
+**/*.log
+launcher/tsc-*.txt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups
+**/*.backup
